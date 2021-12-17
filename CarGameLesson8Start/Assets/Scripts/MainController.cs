@@ -12,6 +12,7 @@ public class MainController : BaseController
         _currencyView = currencyView;
         _fightWindowView = fightWindowView;
         _startFightView = startFightView;
+        _dailyRewardView = dailyRewardView;
 
 
         OnChangeGameState(_profilePlayer.CurrentState.Value);
